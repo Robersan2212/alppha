@@ -1,4 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
-header {
-    
+.content .container{
+    display: grid;
+    height: 100vh;
+
+    grid-template-rows: auto 1fr auto;
 }
+
+#navbar{
+    background-color: #1B1B1E;
+}
+
+.firstc{
+    padding: 10px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+} 
+
+nav a:hover{
+background-color: blue;
+}
+
